@@ -1,11 +1,37 @@
 .temp-count{
-    background: #FFEE58;
+    background: #FFF176;
 }
 .pers-count{
-    background: #1E88E5;
+    background: #4FC3F7;
 }
 .total-count{
-    background: #263238;
+    background: #90A4AE;
 }
 .s-lump-count{}
 .lump-count{}
+
+
+.txt-white{
+    color: white;
+    text-shadow: 2px 2px 4px #263238;
+}
+.txt-black{
+    color: black;
+    text-shadow: 2px 2px 4px white;
+}
+.txt-shadow-simple{
+    text-shadow: 2px 2px 10px #263238;
+}
+
+.card-size{
+    width: 20rem;
+    height: 20rem;
+}
+
+.card-shadow{
+    box-shadow: 4px 4px 5px grey;
+}
+
+.container-shadow{
+    box-shadow: 1px 1px 5px grey;
+}

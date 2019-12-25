@@ -21,15 +21,21 @@
                     <a class="nav-link mt-1" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mt-1" href="#">Features</a>
+                    <a class="nav-link mt-1" href="#about">Acerca de nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mt-1" href="#">Pricing</a>
+                    <a class="nav-link mt-1" href="#services">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mt-1" href="#time-visit">Hora de visitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mt-1" href="#contact">Contacto</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link h5" href="./views/login.html"> 
                         <form class="form-inline">
-                            <button class="btn btn-outline-info" type="button">Login</button>
+                            <button class="btn btn-outline-info" type="button">Iniciar sesión</button>
                         </form>
                     </a>
                 </li>
@@ -52,7 +58,7 @@
     </div>
        
         <!--  sobre nosotros  -->
-    <div style="margin: 0; padding: 0; width: 100%; height: 48rem;">
+    <div id="about" style="margin: 0; padding: 0; width: 100%; height: 48rem;">
         <div class=" row p-5">
             <div class="col-6">
                 <img src="./img/Modo-de-vida-cangrejo-azul.jpg" alt="" style="margin:0; padding: 0; width: 100%; height: 41rem; filter: contrast(100%);">  
@@ -61,14 +67,14 @@
                 <div class="pt-5">
                     <p class="display-3">Sobre Promarca</p>
                     <p class="p-4">Como uno de los principales negocios locales al sur de Maracaibo le debemos nuestro buen nombre a la estrecha relacion que tenemos con nuestros clientes. Creemos que todos se merecen el mas alto nivel de servicio y estamos comprometidos con ofrecerles justamente eso. Para saber más, ponte en contacto con nosotros.</p>
-                    <button class="btn btn-primary">Contacto</button>
+                    <a class="btn btn-info" href="#contact">Contacto</a>
                 </div>
             </div>
         </div>
     </div>
        
         <!--  servicios  -->
-    <div class="container align-items-center">
+    <div id="services" class="container align-items-center">
         <div class="row">
             <div class="col-4 text-center">
                 <!-- Bootstrap Card-->
@@ -113,7 +119,7 @@
     </div>
        
         <!--  horario de servicios  -->
-    <div style="margin: 0; padding: 0; width: 100%; height: 40rem;">
+    <div id="time-visit" style="margin: 0; padding: 0; width: 100%; height: 40rem;">
         <div class=" row p-5">
             <div class="pt-5 col-6 text-center">
                 <div class="pt-5">
@@ -129,7 +135,7 @@
     </div>
             
         <!--  contactanos  -->
-    <div class="container align-items-center">
+    <div id="contact" class="container align-items-center">
         <div class="text-center row">
             <div class="col-12">
                 <p class="p-5 h1">Contáctanos</p>
@@ -147,7 +153,7 @@
                 <textarea name="" id="" placeholder="Escribe tu mensaje aquí..."></textarea>
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn-primary">Donaciones</button>
+                <button type="submit" class="btn btn-info">Donaciones</button>
             </div>
             <div class="col-12">
                 <p class="p-3 h5">¡Gracias por tu mensaje!</p>
